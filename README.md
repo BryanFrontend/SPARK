@@ -15,7 +15,7 @@
 [![Wallet](https://img.shields.io/badge/Funded-$10%2C000_USDC-brightgreen)](#wallet--transparency)
 [![Trades](https://img.shields.io/badge/Trades-Public-blue)](#trade-transparency)
 [![Status](https://img.shields.io/badge/Status-Live-success)]()
-[![Twitter](https://img.shields.io/badge/Twitter-%40SparkAgent__SOL-1DA1F2?logo=twitter)](https://twitter.com)
+[![Twitter](https://img.shields.io/badge/Twitter-@BryanFrontend-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/BryanFrontend)
 
 ---
 
