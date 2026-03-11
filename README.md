@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo/spark_logo.png" alt="Spark Logo" width="180"/>
+<img src="spark.png" alt="Spark Logo" width="180"/>
 
 # ⚡ Spark
 
