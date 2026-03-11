@@ -25,7 +25,7 @@
 
 ---
 
-[🚀 Quick Start](#-getting-started) · [📐 Architecture](#-architecture) · [📊 Live Trades](#-example-trades) · [🗺️ Roadmap](#️-roadmap) · [🤖 OpenClaw Framework](#-openclaw-agent-framework) · [📖 Docs](./docs/)
+[ Quick Start](#-getting-started) · [ Architecture](#-architecture) · [ Live Trades](#-example-trades) · [ Roadmap](#️-roadmap) · [ OpenClaw Framework](#-openclaw-agent-framework) · [📖 Docs](./docs/)
 
 </div>
 
@@ -61,10 +61,10 @@
 
 Spark does not use price-only signals. Instead, it synthesizes:
 
-- 🗣️ **Social narrative velocity** — how fast a story is spreading across Twitter/X, Telegram, and on-chain holder growth
-- 📈 **On-chain momentum** — volume surges, holder count growth rate, wallet concentration metrics
-- 💬 **Community strength** — organic vs. bot-driven engagement scoring
-- 🧠 **Narrative classification** — LLM-powered categorization of what *type* of narrative is forming
+-  **Social narrative velocity** — how fast a story is spreading across Twitter/X, Telegram, and on-chain holder growth
+-  **On-chain momentum** — volume surges, holder count growth rate, wallet concentration metrics
+-  **Community strength** — organic vs. bot-driven engagement scoring
+-  **Narrative classification** — LLM-powered categorization of what *type* of narrative is forming
 
 When enough signals converge, Spark autonomously executes a trade via **Jupiter DEX**, logs the reasoning publicly, and posts a summary to Twitter.
 
@@ -1104,10 +1104,10 @@ MIT License — see [LICENSE](./LICENSE) for details.
 
 <div align="center">
 
-**Built with ⚡ by the OpenClaw team**
+**Built with ⚡ by Bryan**
 
-[![Twitter](https://img.shields.io/badge/Twitter-%40SparkAgent__SOL-1DA1F2?logo=twitter)](https://twitter.com)
-[![GitHub](https://img.shields.io/badge/GitHub-openclaw%2Fspark--agent-black?logo=github)](https://github.com)
+[![Twitter](https://img.shields.io/badge/Twitter-@BryanFrontend-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/BryanFrontend)
+
 
 *Every trade. Public. Every decision. Explained.*
 
