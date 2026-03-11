@@ -1,0 +1,59 @@
+{
+  "name": "spark-agent",
+  "version": "1.0.0",
+  "description": "Spark — Autonomous Solana momentum trading agent built on OpenClaw",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.js",
+    "chat": "ts-node src/index.ts --mode=chat",
+    "backtest": "ts-node scripts/backtest.ts",
+    "export-trades": "ts-node scripts/export-trades.ts",
+    "check": "ts-node src/index.ts --mode=check",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "solana",
+    "trading",
+    "ai-agent",
+    "momentum",
+    "openclaw",
+    "defi",
+    "autonomous"
+  ],
+  "author": "OpenClaw Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.1",
+    "axios": "^1.6.7",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.4",
+    "openai": "^4.28.0",
+    "readline": "^1.3.0",
+    "twitter-api-v2": "^1.17.0",
+    "winston": "^3.11.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bs58": "^4.0.4",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
